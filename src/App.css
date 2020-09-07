@@ -64,7 +64,7 @@
 .link{
     margin-top: 20px
 }
-
+.link a{ color: brown; text-decoration: none;}
 @media screen and (max-width: 600px){
     .card-overall{
         display: grid;
@@ -79,4 +79,7 @@
      .search-btn, .search-input{
          width: 100%;
      }
+     .link{
+        margin-bottom: 50px;
+    }
 }
