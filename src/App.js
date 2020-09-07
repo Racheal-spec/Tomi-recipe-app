@@ -23,14 +23,6 @@ const App = () => {
   
 }, [query]);
 
-/*
-const notFound = (data) => {
-  if(!data.hits.lenght){
-    return (<div>No result found</div>);
-  } else {
-    setFood(data.hits);
-  }
-}*/
   const updateRecipes = (event) => {
     setSearch(event.target.value);
   }
